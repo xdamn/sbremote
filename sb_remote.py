@@ -20,7 +20,7 @@ except:
     sys.exit(-1)
 
 
-skip_types = ["sponsor", "selfpromo", "intro", "outro"]
+skip_types = ["filler", "interaction", "intro", "music_offtopic", "outro", "poi_highlight", "preview", "selfpromo", "sponsor"]
 proj_name = "SBRemote"
 proj_version = "0.3.1"
 janky_restart = True
